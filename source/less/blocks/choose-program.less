@@ -1,0 +1,77 @@
+.choose-program {
+  width: 320px;
+  height: 480px;
+  margin-top: -40px;
+  background-image: url('../img/background/index-can-mobile.png'),
+                    linear-gradient(rgba(104, 183, 56, 0.85) 302px, #FFFFFF 178px),
+                    url('../img/background/cat_background.jpg');
+  background-repeat: no-repeat;
+  background-position: 20px 167px, 0 0, 0 0;
+  color: #FFFFFF;
+
+  @media (min-width: @tablet-width) {
+    min-width: @tablet-width;
+    height: 872px;
+    background-image: url('../img/background/index-can.png');
+    background-size: 709px 609px;
+    background-position: 9px 233px;
+    color: #000000;
+  }
+}
+
+.choose-program__heading {
+  padding-top: 27px;
+  margin-bottom: 25px;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+
+  @media (min-width: @tablet-width) {
+    width: 420px;
+    margin: 0;
+    margin-top: 64px;
+    margin-bottom: 41px;
+    margin-left: 97px;
+    font-family: Oswald;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: left;
+  }
+}
+
+.choose-program__text {
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-align: center;
+
+  @media (min-width: @tablet-width) {
+    margin-left: 97px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+.choose-program__button {
+  width: 280px;
+  height: 40px;
+  padding: 11px 44px;
+  margin-top: 300px;
+  margin-left: 20px;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-sizing: border-box;
+
+  @media (min-width: @tablet-width) {
+    width: 244px;
+    height: 54px;
+    margin-top: 49px;
+    margin-left: 97px;
+    padding: 16px 26px;
+  }
+}

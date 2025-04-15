@@ -1,0 +1,117 @@
+.stages__title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+
+  @media (min-width: @tablet-width) {
+    margin: 0;
+    margin-top: 45px;
+    margin-left: 30px;
+    margin-bottom: 32px;
+    text-align: left;
+    font-size: 60px;
+    line-height: 60px;
+  }
+}
+
+.stages__list {
+  .li-style;
+  position: relative;
+  margin-left: 30px;
+  margin-bottom: 49px;
+
+  @media (min-width: @tablet-width) {
+    display: grid;
+    grid-template-columns: 230px 230px;
+    column-gap: 153px;
+    row-gap: 37px;
+    margin-bottom: 90px;
+
+    &::after {
+      position: absolute;
+      content: "";
+      left: -30px;
+      right: -30px;
+      bottom: -47px;
+      height: 1px;
+      background-color: #E6E6E6;
+    }
+  }
+}
+
+.stages__item {
+  width: 199px;
+  padding-left: 80px;
+  margin-top: 42px;
+  margin-right: 43.5px;
+  font-family: @extra-font;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+
+  @media (min-width: @tablet-width) {
+    margin-top: 0;
+    padding-top: 151px;
+    padding-left: 0;
+    width: 230px;
+    height: 280px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.stages__item:first-child {
+  background: url('../img/background/stages_1.svg') no-repeat 0 0;
+  background-size: 60px 60px;
+
+  @media (min-width: @tablet-width) {
+    background-image: url("../img/background/stages_1.svg"),
+                      url("../../img/background/1.svg");
+    background-repeat: no-repeat;
+    background-position: 0 40px, 100px 40px;
+    background-size: 80px 80px, 124px 240px;
+  }
+}
+
+.stages__item:nth-child(2) {
+  background: url('../img/background/stages_2.svg') no-repeat 0 0;
+  background-size: 60px 60px;
+
+  @media (min-width: @tablet-width) {
+    background-image: url("../img/background/stages_2.svg"),
+                      url("../../img/background/2.svg");
+    background-repeat: no-repeat;
+    background-position: 0 40px, 100px 40px;
+    background-size: 80px 80px, 124px 240px;
+  }
+}
+
+.stages__item:nth-child(3) {
+  background: url('../img/background/stages_3.svg') no-repeat 0 0;
+  background-size: 60px 60px;
+
+  @media (min-width: @tablet-width) {
+    background-image: url("../img/background/stages_3.svg"),
+                      url("../../img/background/3.svg");
+    background-repeat: no-repeat;
+    background-position: 0 40px, 103px 40px;
+    background-size: 80px 80px, 114px 240px;
+  }
+}
+
+.stages__item:nth-child(4) {
+  width: 245px;
+  background: url('../img/background/stages_4.svg') no-repeat 0 0;
+  background-size: 60px 60px;
+
+  @media (min-width: @tablet-width) {
+    background-image: url("../img/background/stages_4.svg"),
+                      url("../../img/background/4.svg");
+    background-repeat: no-repeat;
+    background-position: 0 40px, 118px 40px;
+    background-size: 80px 80px, 124px 240px;
+  }
+}
